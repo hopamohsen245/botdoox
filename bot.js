@@ -16,7 +16,7 @@ var channel = "511861450877173760";//ايدي الروم
 
 client.on('message',function(message) {
 let args = message.content.split(" ").slice(1).join(" ");
-if(message.content.startsWith(prefix + "say")) {
+if(message.content.startsWith(471453061353832459 + "say")) {
 if(!message.guild.member(message.author).hasPermission("ADMINISTRATOR")) return message.reply("**You Dont Have Any Permations:tools: **");
 if(!args) return;
 message.channel.send(`${args}`);
